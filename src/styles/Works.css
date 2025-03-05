@@ -1,0 +1,128 @@
+.works-section {
+  color: white;
+  padding: 80px 0px;
+}
+
+.works-container {
+  max-width: 1200px;
+  margin: 0 0;
+}
+
+/* Header */
+.works-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.works-title {
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.view-all {
+  color: gray;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.view-all:hover {
+  color: white;
+}
+
+/* Work Cards */
+.works-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right, #333, #222);
+  border-radius: 15px;
+  padding: 20px;
+  gap: 20px;
+  align-items: stretch;
+}
+
+/* Image */
+.work-image {
+  width: 35%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Info Section */
+.work-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px 0;
+}
+
+.work-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.work-description {
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.work-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  background: #444;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Button Positioned at Bottom */
+.case-study-btn {
+  padding: 12px 20px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+  align-self: flex-start;
+}
+
+.case-study-btn:hover {
+  background: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .work-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-image {
+    width: 100%;
+  }
+}

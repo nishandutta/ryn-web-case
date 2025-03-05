@@ -1,0 +1,38 @@
+.expertise {
+  background-color: #0a0a0a;
+  color: white;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.expertise-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 10px;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.expertise-item {
+  text-align: left;
+}
+
+.expertise-item h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.expertise-item p {
+  font-size: 1rem;
+  opacity: 0.8;
+  line-height: 1.6;
+}

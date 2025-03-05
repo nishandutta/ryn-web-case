@@ -1,0 +1,110 @@
+.testimonial-section {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 5%;
+}
+
+.testimonial-title {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1000px;
+}
+
+/* Left Column - Image */
+.testimonial-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.testimonial-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-info {
+  margin-top: 12px;
+}
+
+.testimonial-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.testimonial-position {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Right Column - Quote and Navigation */
+.testimonial-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-quote {
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  padding-left: 40px;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.quote-icon {
+  font-size: 60px;
+  position: absolute;
+  left: 0;
+  top: -10px;
+  opacity: 0.2;
+}
+
+.testimonial-controls {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.nav-button {
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testimonial-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .testimonial-content {
+    align-items: center;
+  }
+}
