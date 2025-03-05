@@ -55,9 +55,9 @@ const Testimonial = () => {
 
         {/* Right Column - Quote & Navigation */}
         <div className='testimonial-content'>
-          <div className='testimonial-quote'>
+          <div className='testimonial'>
             <span className='quote-icon'>❝</span>
-            <p>{testimonials[index].quote}</p>
+            <p className='testimonial-text'>{testimonials[index].quote}</p>
           </div>
 
           <div className='testimonial-controls'>

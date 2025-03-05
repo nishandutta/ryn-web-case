@@ -97,3 +97,35 @@
     width: 100%;
   }
 }
+
+.testimonial {
+  position: relative; /* Needed for absolute positioning */
+  background-color: #0a0a0a; /* Dark background */
+  color: white;
+  padding: 40px 30px;
+  max-width: 700px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.quote-icon {
+  position: absolute;
+  top: -55px; /* Moves icon upwards */
+  font-size: 150px; /* Large quote */
+  font-weight: bold;
+  color: rgba(179, 167, 167, 0.557); /* Light opacity */
+  z-index: 1; /* Places it behind the text */
+}
+
+.testimonial-text {
+  position: relative;
+  z-index: 2; /* Ensures text is on top */
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 600px;
+}
+
+strong {
+  color: white;
+  font-weight: bold;
+}

@@ -9,6 +9,7 @@ import Testimonial from './components/Testimonial'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 
+//desktop site
 function App() {
   return (
     <div>
