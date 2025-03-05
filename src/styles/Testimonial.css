@@ -1,85 +1,74 @@
 .testimonial-section {
-  background-color: #000;
   color: #fff;
-  padding: 50px 5%;
+  padding: 50px 0;
 }
 
 .testimonial-title {
-  font-size: 24px;
+  font-size: 2.5rem;
   font-weight: bold;
+  margin-bottom: 40px;
   display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 32px;
+  align-items: left;
+  justify-content: left;
+  gap: 10px;
 }
 
 .testimonial-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
-  gap: 40px;
-  max-width: 1000px;
+  gap: 20px; /* Adjust spacing */
 }
 
-/* Left Column - Image */
 .testimonial-image {
+  flex: 1; /* 50% width */
   display: flex;
   flex-direction: column;
+  align-items: start;
+  text-align: left;
+  gap: 20px;
+}
+
+.testimonial-asset {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
-  flex: 1;
+  text-align: left;
+  gap: 20px;
 }
 
 .testimonial-avatar {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .testimonial-info {
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
-.testimonial-name {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.testimonial-position {
-  font-size: 14px;
-  color: #aaa;
-}
-
-/* Right Column - Quote and Navigation */
 .testimonial-content {
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex: 1; /* 50% width */
 }
 
 .testimonial-quote {
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-  padding-left: 40px;
-  max-width: 600px;
+  font-size: 26px;
   line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .quote-icon {
-  font-size: 60px;
-  position: absolute;
-  left: 0;
-  top: -10px;
-  opacity: 0.2;
+  font-size: 40px;
+  color: #666;
 }
 
 .testimonial-controls {
+  margin-top: 10px;
   display: flex;
-  gap: 12px;
-  margin-top: 16px;
+  gap: 10px;
 }
 
 .nav-button {
@@ -97,14 +86,14 @@
   justify-content: center;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .testimonial-container {
     flex-direction: column;
     text-align: center;
   }
 
+  .testimonial-image,
   .testimonial-content {
-    align-items: center;
+    width: 100%;
   }
 }

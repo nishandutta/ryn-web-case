@@ -6,10 +6,18 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='logo'>M.</div>
       <ul className='nav-links'>
-        <li className='active'>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <a className='link-header' href='#'>
+          <li className='active'>Home</li>
+        </a>
+        <a className='link-header' href='#experience'>
+          <li>About</li>
+        </a>
+        <a className='link-header' href='#works'>
+          <li>Projects</li>
+        </a>
+        <a className='link-header' href='#footer'>
+          <li>Contact</li>
+        </a>
       </ul>
       <button className='hire-btn'>HIRE ME</button>
     </nav>

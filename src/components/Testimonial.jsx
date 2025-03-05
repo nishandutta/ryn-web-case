@@ -36,22 +36,24 @@ const Testimonial = () => {
       </h2>
 
       <div className='testimonial-container'>
-        {/* Left Column - Image */}
+        {/* Left Column - Image & Info */}
         <div className='testimonial-image'>
-          <img
-            src={testimonials[index].image}
-            alt={testimonials[index].name}
-            className='testimonial-avatar'
-          />
-          <div className='testimonial-info'>
-            <h3 className='testimonial-name'>{testimonials[index].name}</h3>
-            <p className='testimonial-position'>
-              {testimonials[index].position}
-            </p>
+          <div className='testimonial-asset'>
+            <img
+              src={testimonials[index].image}
+              alt={testimonials[index].name}
+              className='testimonial-avatar'
+            />
+            <div className='testimonial-info'>
+              <h3 className='testimonial-name'>{testimonials[index].name}</h3>
+              <p className='testimonial-position'>
+                {testimonials[index].position}
+              </p>
+            </div>
           </div>
         </div>
 
-        {/* Right Column - Quote and Navigation */}
+        {/* Right Column - Quote & Navigation */}
         <div className='testimonial-content'>
           <div className='testimonial-quote'>
             <span className='quote-icon'>❝</span>

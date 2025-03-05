@@ -27,7 +27,7 @@ const projects = [
 
 const Works = () => {
   return (
-    <section className='works-section'>
+    <section className='works-section' id='works'>
       <div className='works-container'>
         <div className='works-header'>
           <h2 className='works-title'>✺ Works</h2>

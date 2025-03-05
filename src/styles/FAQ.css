@@ -1,0 +1,38 @@
+.faq-section {
+  color: #fff;
+  padding: 50px 0;
+}
+
+.faq-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 10px;
+}
+
+.faq-icon {
+  font-size: 20px;
+}
+
+.faq-list {
+  max-width: auto;
+}
+
+.faq-item {
+  margin-bottom: 24px;
+}
+
+.faq-question {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.faq-answer {
+  font-size: 16px;
+  color: #aaa;
+  margin-top: 8px;
+  line-height: 1.5;
+}

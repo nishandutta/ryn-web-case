@@ -26,7 +26,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section className='experience-section'>
+    <section className='experience-section' id='experience'>
       <h2 className='experience-title'>
         <span className='icon'>✷</span> Experience
       </h2>

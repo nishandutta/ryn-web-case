@@ -6,7 +6,7 @@
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
@@ -14,11 +14,11 @@
 
 .highlight {
   display: inline-block;
-  vertical-align: middle;
-  width: 50px;
-  height: 30px;
-  border-radius: 15px;
+  width: 100px;
+  height: 80px;
+  border-radius: 30px;
   overflow: hidden;
+  align-items: center;
 }
 
 .highlight img {
@@ -36,7 +36,7 @@
 
 .partners {
   display: flex;
-  gap: 40px;
+  gap: 90px;
 }
 
 .partners img {
